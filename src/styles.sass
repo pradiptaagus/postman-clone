@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+html, body 
+    margin: 0
+
+.btn 
+    box-sizing: border-box
+    padding: 0 10px 0 10px
+    height: 30px
+    display: inline-flex
+    flex-direction: row
+    align-items: center
+    user-select: none
+    cursor: pointer
+    border: none
+    border-radius: 3px
+
+    &:focus 
+        outline: none
+    
+    .icon-left
+        margin-right: 8px
+    
+    .icon-right
+        margin-left: 8px
+
+
+.btn-primary 
+    background-color: #aa00c7
+    color: white
+
+    &:hover 
+        background-color: #9e00c5
+
+.btn-secondary
+    background-color: #424242
+    color: white
+
+    &:hover 
+        background-color: #5a5a5a
