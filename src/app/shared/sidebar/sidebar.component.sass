@@ -1,0 +1,76 @@
+.sidebar
+    background-color: #282828
+    height: 100%
+    width: 270px
+    border-color: #696969
+
+.sidebar-header 
+    padding-bottom: 10px
+    border-bottom: 1px solid #696969
+
+    .sidebar-header-content
+        padding: 10px
+
+.input-group 
+    display: flex
+    border: 1px solid #696969
+    box-sizing: border-box
+    border-radius: 15px
+    padding-left: 10px
+    padding-right: 10px
+    height: 30px
+    background-color: #303030
+
+    .icon-left 
+        flex: 0 0 16px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: 10px
+        color: #696969
+    
+    input
+        flex: 1
+        background-color: #00000000
+        border: none
+
+        &:focus
+            outline: none
+            color: #696969
+
+.tabs
+    box-sizing: border-box
+    display: flex
+    color: #ffffff
+    font-family: Arial, Helvetica, sans-serif
+    list-style: none
+    padding: 0
+
+    .tab-item
+        display: block
+        flex: 1
+        transition: 0.2s ease-in-out
+
+        .tab 
+            padding: 6px 15px
+            text-align: center
+            cursor: pointer
+            user-select: none
+
+            &.active 
+                border-bottom: 3px solid #aa00c7
+
+.tab-content
+    display: none
+
+    &.active
+        display: block
+
+.menus 
+    display: flex
+    justify-content: space-between
+
+
+.sidebar-body 
+    display: flex
+    flex-direction: column
